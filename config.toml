@@ -31,3 +31,7 @@ enableRobotsTXT = true
   darkNav = true
   dark404 = true
 
+  # highlightJS
+  highlightjs = true
+  highlightjsTheme = "gruvbox-light"
+  highlightjsThemeDark = "gruvbox-dark"
