@@ -2,3 +2,32 @@ baseURL = "https://ajmalsiddiqui.me/"
 languageCode = "en"
 title = "Ajmal's Website"
 theme = "dream"
+
+enableRobotsTXT = true
+
+# These are for the dream theme
+[params]
+  background = "black"
+  linkColor = "seagreen"
+
+  author = "Ajmal"
+  avatar = "https://pbs.twimg.com/profile_images/1162714781469442053/2TBxvU4J_400x400.jpg"
+  description = "Coder, car/bike lover, polyglot."
+
+  email = "ajmalsiddiqui21@gmail.com"
+  twitter = "_ajmalsiddiqui"
+  github = "ajmalsiddiqui"
+  linkedin = "ajmal-siddiqui"
+  medium = "@ajmalsiddiqui21"
+
+  # search
+  enableSearch = true
+
+  # options
+  showSummaryCoverInPost = true
+
+  # dark mode options
+  darkLinkColor = "darkseagreen"
+  darkNav = true
+  dark404 = true
+
