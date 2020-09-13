@@ -1,3 +1,4 @@
 baseURL = "https://ajmalsiddiqui.me/"
 languageCode = "en"
 title = "Ajmal's Website"
+theme = "dream"
