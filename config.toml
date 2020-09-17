@@ -3,6 +3,8 @@ languageCode = "en"
 title = "Ajmal's Website"
 theme = "dream"
 
+googleAnalytics = "UA-153877586-2"
+
 enableRobotsTXT = true
 
 # These are for the dream theme
