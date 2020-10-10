@@ -1,7 +1,7 @@
 ---
 title: Syntactical Quirks Of JavaScript Explained
 date: 2018-02-07T22:23:18+05:30
-lastmod: 2018-02-07T22:23:18+05:30
+lastmod: 2020-10-10T06:57:00+05:30
 author: Mohammed Ajmal Siddiqui
 authorlink: https://ajmalsiddiqui.me
 cover: https://cdn.pixabay.com/photo/2019/10/03/12/12/javascript-4523100_960_720.jpg
@@ -18,11 +18,15 @@ Tag along for a quick tour of some of the weirder things about JavaScript syntax
 
 <!--more-->
 
+> Note: JavaScript is considered to be a very complex language. It is filled with things (read: pitfalls) that defy all reason, and require an understanding of the innards of the language to figure out why it works the way it does. Hence, I **strongly** recommend you go over the articles linked in the Suggested Reading section, especially if you are expecting to be interviewed for your JS skills.
+
 Every programming language has some pieces of syntax that can confuse (read: scare) a developer looking at them for the first time. And given a language with a pace of evolution that is incredibly fast, such instances of weird syntax are inevitable. This article talks about 3 of such syntactical quirks that intimidated me when I first encountered them:
 
 * the Spread Operator
 * Immediately Invoked Functional Expressions
 * Implicit return arrow functions
+
+> Note: This article was written in 2018, and while the contents still hold true as of now, the language has evolved even more and this article barely scratches the surface of what JS can look like. The Suggested Reading section at the end of this article is a good place to start if you're left wanting for more!
 
 These syntactical “quirks” might have intimidated me the first time I saw them, but now I use them all the time.
 
@@ -61,9 +65,9 @@ Which would “spread” the elements of arr and thus be equivalent to:
 
 Which is super neat!
 
-[Here’s](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator) the documentation for the spread operator.
+[Here’s][3] the documentation for the spread operator.
 
-## **Immediately Invoked Functional Expressions (IIFE)**
+## Immediately Invoked Functional Expressions (IIFE)
 
 This is something you’ll see in the JavaScript files of many web front-end codebases:
 
@@ -179,8 +183,21 @@ This is an inline implicit return arrow function. In this case, since there is o
 
 This syntax is much cleaner than the one previously used, and it is a method of choice when using methods like map, reduce, etc.
 
+## Suggested Reading
+
+This section links to articles that I think are a good complement for this one. It is important. This article went over just 3 arbitrarily selected pieces of syntax, but JS is a far bigger beast. Check em out!
+
+1. [The JavaScript Hiring Guide][4] details tricky JS interview questions, and explains the reasoning behind the strange behaviour of JavaScript in certain situations. Some of these tripped me up as well!
+2. [The Complete Beginners JavaScript Handbook 2020][5] is a good walkthrough and reference for the basics of modern JS.
+
 I hope this article helped you understand some of the more quirky aspects of JavaScript and hopefully they wont intimidate you any further.
 
-Also, do connect with me on [GitHub](https://github.com/ajmalsiddiqui/) and [Twitter](https://twitter.com/_ajmalsiddiqui).
+Also, do connect with me on [GitHub][1] and [Twitter][2].
 
 *Happy Coding! :)*
+
+  [1]: https://github.com/ajmalsiddiqui/ "Ajmal's GitHub"
+  [2]: https://twitter.com/_ajmalsiddiqui "Ajmal's Twitter"
+  [3]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator "Spread Operator documentation"
+  [4]: https://www.toptal.com/javascript#hiring-guide "JavaScript Hiring Guide"
+  [5]: https://www.freecodecamp.org/news/the-complete-javascript-handbook-f26b2c71719c/ "The Complete JavaScript Handbook"
