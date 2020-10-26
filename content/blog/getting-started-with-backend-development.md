@@ -3,7 +3,7 @@ title: Getting Started With Backend Development
 date: 2018-01-15T22:23:18+05:30
 lastmod: 2018-01-15T22:23:18+05:30
 author: Mohammed Ajmal Siddiqui
-authorlink: https://ajmalsiddiqui.me
+authorlink: /
 cover: https://cdn.pixabay.com/photo/2018/01/22/21/34/sever-3100049_960_720.jpg
 categories:
   - backend development

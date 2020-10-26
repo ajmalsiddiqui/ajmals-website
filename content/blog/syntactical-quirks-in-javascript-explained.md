@@ -3,7 +3,7 @@ title: Syntactical Quirks Of JavaScript Explained
 date: 2018-02-07T22:23:18+05:30
 lastmod: 2020-10-10T06:57:00+05:30
 author: Mohammed Ajmal Siddiqui
-authorlink: https://ajmalsiddiqui.me
+authorlink: /
 cover: https://cdn.pixabay.com/photo/2019/10/03/12/12/javascript-4523100_960_720.jpg
 categories:
   - software development

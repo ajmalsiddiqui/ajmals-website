@@ -3,7 +3,7 @@ title: "Dive Into Dotfiles Part 1"
 date: 2018-05-27T22:23:18+05:30
 lastmod: 2018-05-27T22:23:18+05:30
 author: Mohammed Ajmal Siddiqui
-authorlink: https://ajmalsiddiqui.me
+authorlink: /
 cover: https://cdn-media-1.freecodecamp.org/images/1BklMEVdm9uru1MpfsiUAHRjL-4aK8AvRtUo
 categories:
   - workflows

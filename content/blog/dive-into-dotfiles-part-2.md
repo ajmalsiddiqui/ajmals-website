@@ -3,7 +3,7 @@ title: "Dive Into Dotfiles Part 2"
 date: 2018-06-05T22:23:18+05:30
 lastmod: 2018-06-05T22:23:18+05:30
 author: Mohammed Ajmal Siddiqui
-authorlink: https://ajmalsiddiqui.me
+authorlink: /
 cover: https://raw.githubusercontent.com/alfunx/.dotfiles/master/pictures/dotfiles.png
 categories:
   - workflows

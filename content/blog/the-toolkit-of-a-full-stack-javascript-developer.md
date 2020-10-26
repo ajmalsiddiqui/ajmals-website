@@ -3,7 +3,7 @@ title: "The Toolkit of a Full Stack Javascript Developer"
 date: 2018-01-15T22:23:18+05:30
 lastmod: 2020-10-03T19:40:18+05:30
 author: Mohammed Ajmal Siddiqui
-authorlink: http://ajmalsiddiqui.me
+authorlink: /
 cover: https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_960_720.jpg
 categories:
   - software development

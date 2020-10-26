@@ -3,7 +3,7 @@ title: Introduction to NPM Scripts
 date: 2018-01-24T22:23:18+05:30
 lastmod: 2018-01-24T22:23:18+05:30
 author: Mohammed Ajmal Siddiqui
-authorlink: https://ajmalsiddiqui.me
+authorlink: /
 cover: https://miro.medium.com/max/474/1*dV21xe33QsG6bUWnA5hATg.png
 categories:
   - software development

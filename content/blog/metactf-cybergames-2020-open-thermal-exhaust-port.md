@@ -3,7 +3,7 @@ title: "MetaCTF CyberGames 2020: Open Thermal Exhaust Port"
 date: 2020-10-25T21:04:16+05:30
 lastmod: 2020-10-25T21:04:16+05:30
 author: Mohammed Ajmal Siddiqui
-authorlink: https://ajmalsiddiqui.me
+authorlink: /
 cover: https://cdn.pixabay.com/photo/2018/05/14/16/54/cyber-3400789_960_720.jpg
 categories:
   - ctf writeups
