@@ -1,39 +1,33 @@
 baseURL = "http://ajmalsiddiqui.me/"
 languageCode = "en"
 title = "Ajmal's Website"
-theme = "dream"
+theme = "noteworthy"
 
 googleAnalytics = "UA-153877586-2"
 
 enableRobotsTXT = true
 
+[author]
+    name = "Ajmal"
+
 # These are for the dream theme
 [params]
-  background = "black"
-  linkColor = "seagreen"
+    description = "Coder, car/bike lover, polyglot."
 
-  author = "Ajmal"
-  avatar = "https://pbs.twimg.com/profile_images/1162714781469442053/2TBxvU4J_400x400.jpg"
-  description = "Coder, car/bike lover, polyglot."
+    email = "ajmalsiddiqui21@gmail.com"
+    twitter = "https://twitter.com/_ajmalsiddiqui"
+    github = "https://github.com/ajmalsiddiqui"
+    linkedin = "https://linkedin.com/in/ajmal-siddiqui"
+    medium = "https://medium.com/@ajmalsiddiqui21"
 
-  email = "ajmalsiddiqui21@gmail.com"
-  twitter = "_ajmalsiddiqui"
-  github = "ajmalsiddiqui"
-  linkedin = "ajmal-siddiqui"
-  medium = "@ajmalsiddiqui21"
+[[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 1
 
-  # search
-  enableSearch = true
-
-  # options
-  showSummaryCoverInPost = true
-
-  # dark mode options
-  darkLinkColor = "darkseagreen"
-  darkNav = true
-  dark404 = true
-
-  # highlightJS
-  highlightjs = true
-  highlightjsTheme = "gruvbox-light"
-  highlightjsThemeDark = "gruvbox-dark"
+[[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 2
