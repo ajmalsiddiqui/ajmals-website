@@ -14,6 +14,8 @@ enableRobotsTXT = true
 [params]
     description = "Coder, car/bike lover, polyglot."
 
+    mainSections = [ "blog", "ctf-writeups" ]
+
     email = "ajmalsiddiqui21@gmail.com"
     twitter = "https://twitter.com/_ajmalsiddiqui"
     github = "https://github.com/ajmalsiddiqui"
@@ -21,13 +23,25 @@ enableRobotsTXT = true
     medium = "https://medium.com/@ajmalsiddiqui21"
 
 [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 1
+
+[[menu.main]]
+    identifier = "ctf-writeups"
+    name = "CTF Write-Ups"
+    url = "/ctf-writeups/"
+    weight = 2
+
+[[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 1
+    weight = 3
 
 [[menu.main]]
     identifier = "categories"
     name = "Categories"
     url = "/categories/"
-    weight = 2
+    weight = 4
