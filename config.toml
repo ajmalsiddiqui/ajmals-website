@@ -12,6 +12,7 @@ enableRobotsTXT = true
 
 # These are for the dream theme
 [params]
+    author = "Mohammed Ajmal Siddiqui"
     description = "Coder, car/bike lover, polyglot."
 
     mainSections = [ "blog", "ctf-writeups" ]
