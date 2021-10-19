@@ -508,12 +508,12 @@ We can now write each of the 8 digits we have in the form `(257 ^ yi) * (2 ^ i)`
 (257 ^ 62) * (2 ^ 1) # 2 = 2 ^ 1
 (257 ^ 39) * (2 ^ 2) # 4 = 2 ^ 2
 ...
-(257 ^ 70) * (2 ^ 128) # 128 = 2 ^ 7
+(257 ^ 70) * (2 ^ 7) # 128 = 2 ^ 7
 ```
 
 With this ordering, we can construct a list of `yi` values, which are just the powers that `257` is raised to.
 
-Now recall that we had set `yi = ord(chunk3[i]) - 0x28` earlier. To get `chunk3[i]` values, we need to invert this function. This is easy if you've gotten past the previous stage. We realise that `chunk3[i] = chr(yi + 0x28)`. Knowingthis, we can construct `chunk3` as follows:
+Now recall that we had set `yi = ord(chunk3[i]) - 0x28` earlier. To get `chunk3[i]` values, we need to invert this function. This is easy if you've gotten past the previous stage. We realise that `chunk3[i] = chr(yi + 0x28)`. Knowing this, we can construct `chunk3` as follows:
 
 ```python
 # Our list of yi values
