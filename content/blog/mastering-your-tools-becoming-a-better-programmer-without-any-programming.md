@@ -17,7 +17,7 @@ This post talks about how you can be a better programmer without actually learni
 
 <!--more-->
 
- Programming is still a very artisanly job. Sure, we have things like code linters, boilerplate generators, and capabilities to automatically refactor large codebases, but most of the code that actually matters - new features, complex bugfixes, etc - is still handcrafted with love. A master artisan is a master of his toolbox, and that's what we're talking about today.
+Programming is still a very artisanly job. Sure, we have things like code linters, boilerplate generators, and capabilities to automatically refactor large codebases, but most of the code that actually matters - new features, complex bugfixes, etc - is still handcrafted with love. A master artisan is a master of his toolbox, and that's what we're talking about today. If you aren't convinced that efficiency and speed matter, [this article][19] might help change your mind.
 
 > At risk of stating the obvious, I am definitely not saying that you should stop learning actual programming skills and devote yourself to this stuff. Being a good programmer is all about, well, programming. This stuff will just make the process more efficient and more rewarding.
 
@@ -108,3 +108,4 @@ Find me on [Twitter][10] and check out some of my code adventures on [GitHub][11
   [16]: https://www.ocf.berkeley.edu/~ckuehl/tmux/ "Tmux Guide"
   [17]: https://nullprogram.com/blog/2017/04/01/ "Touch Typing and Vim"
   [18]: https://rounakvyas.me/ "Rounak Vyas on Twitter"
+  [19]: https://scattered-thoughts.net/writing/speed-matters/ "Speed Matters"
