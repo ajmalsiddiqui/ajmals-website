@@ -1,4 +1,4 @@
-baseURL = "http://ajmalsiddiqui.me/"
+baseURL = "https://ajmalsiddiqui.me/"
 languageCode = "en"
 title = "Ajmal's Website"
 theme = "noteworthy"
