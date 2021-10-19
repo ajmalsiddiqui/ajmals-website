@@ -1,7 +1,7 @@
 ---
 title: Getting Started With Backend Development
 date: 2018-01-15T22:23:18+05:30
-lastmod: 2020-11-28T22:08:18+05:30
+lastmod: 2021-10-16T18:07:01+05:30
 author: Mohammed Ajmal Siddiqui
 authorlink: /
 cover: https://cdn.pixabay.com/photo/2018/01/22/21/34/sever-3100049_960_720.jpg
@@ -15,7 +15,7 @@ showcase: true
 draft: false
 ---
 
-A code-free introduction to what backend (i.e. server side) development is all about, what backend devs do, some prerequisite knowledge and a few guideposts to help you get your hands dirty!
+A code-free introduction to what backend (i.e. server side) development is all about, what backend devs do, how to get started, some prerequisite knowledge and a few guideposts to help you get your hands dirty!
 
 <!--more-->
 
@@ -25,7 +25,7 @@ A code-free introduction to what backend (i.e. server side) development is all a
 
 An app or a web service can have two broad parts: the frontend and the backend. The roles of these parts can be guessed from their names. The frontend is the part that you can “see”. It is the part that lets you interact with the app or service. The colours, animations, layout, and all the other cool stuff that adds to your experience of using the app or website is the frontend. The frontend is generally called the User Interface (UI).
 
-The backend is the part that you can’t “see”. It is the internal working of the application or website. This includes stuff like the server, the database, etc.
+The backend is the part that you can’t “see”. It is the internal working of the application or website. This includes stuff like the server, the database, the cache, etc.
 
 Consider this blog. You’re reading an article on the blog. The fonts, colours, designs, etc constitute the frontend of this page. However, the webpage and the content of this article were served by a server and fetched from a database. This is the backend part of the application.
 
@@ -33,8 +33,7 @@ Consider this blog. You’re reading an article on the blog. The fonts, colours,
 
 Some of the things taken care of by backend developers include:
 
-* Writing server-side code
-* Writing code to interact with a database (yes, I know, this falls under "writing server-side code")
+* Writing server-side code - business logic, authentication/authorization, interacting with a database, etc
 * Coming up with system architectures, being clever about how the system does really well for the use-case at hand
 * Ensuring that the server-side code is secure and free of vulnerabilities (in collaboration with security teams)
 * Ensuring that the server-side code is optimised enough to handle large volumes of traffic
@@ -46,7 +45,7 @@ Backend developers may work with other kinds of developers on a single project s
 
 Before you delve into frameworks, languages and technologies used by backend developers, there are certain things you should be comfortable with.
 
-First and foremost, understand what a server is and what the different kinds of servers are. Thanks to movies and popular culture, people are intimidated by the idea of a server. But it isn’t that complex at all. You’ll know once you start learning.
+First and foremost, understand what a server is and what the different kinds of servers are. The meaning can vary depending on context - it may refer to the machine serving your application, or to the software that runs on your machine and handles requests of a specific type, etc. It isn’t that complex at all. You’ll know once you start learning.
 
 Second, learn about what a database is and the different kinds of databases out there.
 
@@ -90,9 +89,9 @@ An interesing development in this context is [the Deno framework][3], which is s
 
 #### Databases and Misc
 
-Next step: learn about a database. If you’re going for NodeJS, a natural choice is MongoDB — one of the most popular NoSQL databases in the world. SQL is an important skill, and RDBMS systems (relational databases) are probably here to stay. Postgres is a good choice.
+Next step: learn about a database. If you’re going for NodeJS, you'll find it is often paired with MongoDB - one of the most popular NoSQL databases in the world. However, your choice of database should depend on the data model of your application. And don't rule SQL DBs out. SQL is an important skill, and RDBMS systems (relational databases) are probably here to stay. Postgres is a good choice.
 
-You should also learn about things like key-value stores and data structure stores (I favour Redis), which are useful as caches or session stores.
+You should also learn about things like data structure stores (I favour Redis), which are useful as caches or session stores.
 
 Once you’ve decided upon which framework and database you want to use, there are a few more things you should be comfortable with as a developer in general and a backend developer in particular:
 
