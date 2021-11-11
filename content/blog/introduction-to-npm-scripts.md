@@ -1,10 +1,9 @@
 ---
 title: Introduction to NPM Scripts
 date: 2018-01-24T22:23:18+05:30
-lastmod: 2018-01-24T22:23:18+05:30
+lastmod: 2021-11-11T09:32:54+05:30
 author: Mohammed Ajmal Siddiqui
 authorlink: /
-cover: https://miro.medium.com/max/474/1*dV21xe33QsG6bUWnA5hATg.png
 categories:
   - software development
   - workflows
@@ -15,11 +14,10 @@ tags:
   - NodeJS
   - JavaScript
   - NPM
-showcase: true
 draft: false
 ---
 
-Why use a complicated external build system when NPM offers a surprisingly powerful alternative right out of the box? Read on to find out how to leverage the power of NPM scripts to have clean, powerful, dependency-free workflows!
+NPM scripts allow you to build powerful, composable workflows without depending on external automation tools or build systems. Read on to find out how to leverage them in your projects!
 
 <!--more-->
 
@@ -284,24 +282,12 @@ So how do we get around this? There are three approaches that you may use:
 Finally, there is a lot that you can do with NPM scripts. Some use cases are:
 
 * Minification/Uglification of CSS/JavaScript
-
 * Automating the build process
-
 * Linting your code
-
 * Compressing images
-
 * Automatically injecting changes with BrowserSync
 
 And a lot more. To learn about how to automate the above-mentioned tasks using NPM scripts, check out [this brilliant article](https://css-tricks.com/why-npm-scripts/) on the topic.
-
-## Bonus: Commander for Creating CLI Applications Using NodeJS
-
-While we’re discussing NPM scripts and the CLI, I’d like to quickly tell you about a really cool package called commander. Commander allows you to create your own CLI applications. This isn’t really related to NPM scripts, but it’s a cool piece of technology to know. Check out the [commander docs here](https://www.npmjs.com/package/commander) or try one of these tutorials:
-
-* [Build An Interactive Command-Line Application with Node.js — Scotch.io](https://scotch.io/tutorials/build-an-interactive-command-line-application-with-nodejs)
-
-* [Writing Command Line Applications in NodeJS — freeCodeCamp](https://medium.freecodecamp.org/writing-command-line-applications-in-nodejs-2cf8327eee2)
 
 ## Concluding Words
 
