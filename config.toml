@@ -17,6 +17,7 @@ enableRobotsTXT = true
 
     mainSections = [ "blog", "ctf-writeups" ]
 
+    resume = "https://drive.google.com/file/d/1W95vjaJ6ZjcOOBm2i2ZEnAMnrwsFFELc/view"
     email = "ajmalsiddiqui21@gmail.com"
     twitter = "https://twitter.com/_ajmalsiddiqui"
     github = "https://github.com/ajmalsiddiqui"
