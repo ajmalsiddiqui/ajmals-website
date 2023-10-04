@@ -1,0 +1,21 @@
+name: Test whether the blog builds by building it with Hugo
+
+on:
+  push:
+    branches:
+      - 'master'
+
+permissions:
+  contents: read
+
+jobs:
+  hugo_build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # Install hugo from the Snap store
+      - name: install
+        run: sudo snap install hugo
+
+      - name: build
+        run: hugo
